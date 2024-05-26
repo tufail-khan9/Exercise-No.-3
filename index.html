@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    
+        <!-- ----------------------Convert celsius value to Fahrenheit ------------------------------>
         <div>
             <h2>Convert Celsius to Fahrenheit</h2>
-        </div>
+        
          Inter Celsius: &nbsp;
         <input type="text" id="celsius" style="height: 20px;"/>
         <br><br>
@@ -18,10 +19,19 @@
         <input type="number" id="celsius2" style="height: 20px; margin-right: 20px;"/>
         <br><br>
         <button onclick="maxData()" class="button button3" style="margin-left: 7%;">Calculate</button>
+    </div>
         <hr>
-        <h2>The list of Soccer World Cup that will be Comes in</h2>
+
+
+        <!-- -------------------The list of Soccer World Cup that will be Comes in ------------------------------>
+        
+    <div><h2>The list of Soccer World Cup that will be Comes in</h2>
         <p id="soccerCup"></p>
+    </div>
         <hr>
+
+
+        <!-- ----------------------Check student grade system to pass or fail ------------------------------>
         <div style="margin-top: 10px;">
             Enter Presence Days Here &nbsp;
             <input type="number" id="absence"  style="height: 20px;" placeholder="Inter absencenty days">
@@ -32,16 +42,88 @@
             Enter Second Grade &nbsp;&nbsp;
             <input type="number" id="grade2"  style="height: 20px;"  placeholder="Inter presence day">
             <br><br>
-            <button onclick="studentResult()">Result</button>
+            <button onclick="studentResult()" class="button button3">Result</button>
             <br>
             <p id="showResult"></p>
+        </div>
             <hr>
-            
-        </div>
-        </div>
+
+
+            <!-- ----------------------double the original array and print ------------------------------>
         
+        <div>
+            <h2>Double the below array numbers</h2>
+            <p id="orignalarr"></p>
+            <p>Now we have the double array</p>
+            <p id="doublearr"></p>
+        </div>
+        <hr>
+     <!-- ----------------------convert the integer array to string array and print ------------------------------>
+        <div>
+            <h2>Convert the below array numbers to string</h2>
+            <p id="numbersArray"></p>
+            <p>Now we have the string array</p>
+            <p id="stringArray"></p>
+        </div>
+        <hr>
+         <!-- -------------convert the element of array to uppercase and print ----------------------->
+        <div>
+            <h2>Convert each element to uppercase</h2>
+            <p id="lowerCase"></p>
+            <p>Now we have the updated array</p>
+            <p id="upperCase"></p>
+        </div>
+        <hr>
+        <!-- -------------convert the element of array to square of elements and print ----------------------->
+
+        <div>
+            <h2>Convert Each Element To Square</h2>
+            Enter The Array in Textbox &nbsp;
+            <input type="text" id="square"  style="height: 25px;" width="20%" placeholder="Inter Your Array Here">&nbsp;&nbsp;
+            <button onclick="squareResult()" class="button button3">Click Here</button>
+            <br>
+            After Clicking Button The Modified Array is Below
+            <p id="squre_result"></p>
+        </div>
+        <hr>
+
+        <!-- -------------make sum of each element  and print ----------------------->
+        <div>
+            <h2>Make Sum Of Each Element</h2>
+            Enter The Array in Textbox &nbsp;
+            <input type="text" id="sum_Num"  style="height: 25px;" width="20%" placeholder="Inter Your Array Here">&nbsp;&nbsp;
+            <button onclick="sumNumbers()" class="button button3">Click Here</button>
+            <br>
+            After Clicking Button The Modified Array is Below
+            <p id="sum_digits"></p>
+        </div>
+        <hr>
+
+        <!-- -------------calculate mean and median and print ----------------------->
+        <div>
+            <h2>Calculate Mean Of Elements Of Array</h2>
+            Enter The Array For Mean &nbsp;
+            <input type="text" id="meanNumbers"  style="height: 25px;" width="20%" placeholder="Inter Your Array For Mean">&nbsp;&nbsp;
+            <button onclick="mean_OfNumbers()" class="button button3">Click Here</button>
+            <br>
+            After Clicking Button The Modified Array is Below
+            <p id="mean_digits"></p>
+            <h2>Calculate Median Of Elements Of Array</h2>
+            Enter The Array For Median &nbsp;
+            <input type="text" id="medianNumbers"  style="height: 25px;" width="20%" placeholder="Inter Your Array For Median">&nbsp;&nbsp;
+            <button onclick="median_OfNumbers()" class="button button3">Click Here</button>
+            <br>
+            After Clicking Button The Modified Array is Below
+            <p id="median_digits"></p>
+        </div>
+        <hr>
+        <!-- -------------convert the element of array to uppercase and print ----------------------->
 
 
+
+
+
+        </div>
         <script src="index.js"></script>
 </body>
 </html>
