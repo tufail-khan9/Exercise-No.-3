@@ -94,11 +94,30 @@ for(i=2022; i<=2050; i+=4)
         {
             let sum_Array = JSON.parse(document.getElementById('sum_Num').value);
             let sum_arr = sum_Array .filter((num) => num > 0).reduce( (acc , num1) => acc + num1, 0 );
-            document.getElementById('sum_digits').innerHTML = `squareArray = [${sum_arr}]`;
+            document.getElementById('sum_digits').innerHTML = `Sum_Of_Array = [${sum_arr}]`;
 
         }
 
         
+        //Calculate Mean of Elements Of Array
+        function mean_OfNumbers()
+        {
+            let mean_Array = JSON.parse(document.getElementById('meanNumbers').value);
+            let mean_arr = mean_Array.reduce( (acc,item) => acc + item/mean_Array.length, 0)
+           //let result = mean_arr/mean_Array.length;
+            document.getElementById('mean_digits').innerHTML = `Mean_Of_Array = [${mean_arr}]`;
+
+        }
+
+        //Calculate median numbers
+        // function median_OfNumbers()
+        // {
+        //     let median_Array = JSON.parse(document.getElementById('medianNumbers').value);
+        //     let median_arr = median_Array.reduce( (acc,item) => acc + item, 0)
+        //    let result1 = median_arr/median_Array.length;
+        //     document.getElementById('median_digits').innerHTML = `Median_Of_Array = [${result1}]`;
+
+        // }
            
    
 
