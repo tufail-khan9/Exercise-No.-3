@@ -49,7 +49,7 @@
             <hr>
 
 
-            <!-- ----------------------double the original array and print ------------------------------>
+            <!-- -----------------------------double the original array and print ---------------------------------------->
         
         <div>
             <h2>Double the below array numbers</h2>
@@ -58,7 +58,7 @@
             <p id="doublearr"></p>
         </div>
         <hr>
-     <!-- ----------------------convert the integer array to string array and print ------------------------------>
+     <!-- ------------------------------convert the integer array to string array and print ------------------------------------------->
         <div>
             <h2>Convert the below array numbers to string</h2>
             <p id="numbersArray"></p>
@@ -66,7 +66,7 @@
             <p id="stringArray"></p>
         </div>
         <hr>
-         <!-- -------------convert the element of array to uppercase and print ----------------------->
+         <!-- --------------------------convert the element of array to uppercase and print ------------------------------------->
         <div>
             <h2>Convert each element to uppercase</h2>
             <p id="lowerCase"></p>
@@ -74,7 +74,7 @@
             <p id="upperCase"></p>
         </div>
         <hr>
-        <!-- -------------convert the element of array to square of elements and print ----------------------->
+        <!-- ---------------------convert the element of array to square of elements and print -------------------------------------->
 
         <div>
             <h2>Convert Each Element To Square</h2>
@@ -87,7 +87,7 @@
         </div>
         <hr>
 
-        <!-- -------------make sum of each element  and print ----------------------->
+        <!-- -----------------------------------------make sum of each element  and print ---------------------------------------->
         <div>
             <h2>Make Sum Of Each Element</h2>
             Enter The Array in Textbox &nbsp;
@@ -99,7 +99,7 @@
         </div>
         <hr>
 
-        <!-- -------------calculate mean and median and print ----------------------->
+        <!-- ------------------------------------calculate mean and median and print --------------------------------------------------->
         <div>
             <h2>Calculate Mean Of Elements Of Array</h2>
             Enter The Array For Mean &nbsp;
@@ -111,13 +111,66 @@
             <h2>Calculate Median Of Elements Of Array</h2>
             Enter The Array For Median &nbsp;
             <input type="text" id="medianNumbers"  style="height: 25px;" width="20%" placeholder="Inter Your Array For Med">&nbsp;&nbsp;
-            <button onclick="median_OfNumbers()" class="button button3">Click Here</button>
+            <button id="calculateMedianButton" class="button button3">Click Here</button>
             <br>
             After Clicking Button The Modified Array is Below
             <p id="median_digits"></p>
         </div>
         <hr>
-        <!-- -------------convert the element of array to uppercase and print ----------------------->
+        <!-- ----------------------------------Get the initials and print --------------------------------------------------->
+        <div>
+        <h2>Get The Initials Of The Array And Join It</h2>
+        Enter The Array Without [] Brackets &nbsp;
+        <input type="text" id="initials"  style="height: 25px;" width="20%" placeholder="Inter Your Array Without []">&nbsp;&nbsp;
+        <button onclick="initials_String()" class="button button3">Click Here</button>
+        <br>
+        After Clicking Button The Modified Array is Below
+        <p id="initials_text"></p>
+        </div>
+        <hr>
+
+         <!-- ----------------------------------Find largest age and minus smallest age and print --------------------------------------------------->
+        <div>
+            <h2>Calculating Difference of Ages Between Oldest and Youngest</h2>
+            <p style="line-height: 23px;">Enter the ages Of your family that greater than 40 <br>
+                 In array form like [item1,itme2,etc]</p> &nbsp;&nbsp;&nbsp;
+            <input type="text" id="ageOldest"  style="height: 25px;" width="20%" placeholder="Inter Your Array Wit [ ]">
+            <br>
+           <p style="line-height: 23px;"> Enter the ages of your family that less 40 <br> 
+              In array form like [item1,itme2,etc]</p>&nbsp;
+            <input type="text" id="ageYoungest"  style="height: 25px;" width="20%" placeholder="Inter Your Array With [ ]"><br><br>
+            &nbsp;&nbsp;
+            <button onclick="largest_InAge()" class="button button3">Click Here</button>
+            <br><br>
+            After Clicking Button The Result is Below
+            <p id="oldest_text"></p>
+            <p id="youngest"></p>
+            <p id="result_text"></p>
+            </div>
+            <hr>
+
+            <!-- --------------------------Find the numbers that greater or equal to 5 and print ----------------------------------->
+            <div>
+                <h2>Find the numbers that greater or equal to 5</h2>
+                Enter The Array Here &nbsp;
+                <input type="text" id="greater_five"  style="height: 25px;" width="20%" placeholder="Inter Your Array With [ ]">&nbsp;&nbsp;
+                <button onclick="greaterThan_Five()" class="button button3">Click Here</button>
+                <br>
+                After Clicking Button The Modified Array is Below
+                <p id="greater_text"></p>
+                </div>
+                <hr>
+                    <!-- --------------------------Find the even numbers and print ----------------------------------->
+                <div>
+                    <h2>Find the even numbers </h2>
+                    Enter The Array Here &nbsp;
+                    <input type="text" id="even_nums"  style="height: 25px;" width="20%" placeholder="Inter Your Array With [ ]">&nbsp;&nbsp;
+                    <button onclick="even_Numbers22()" class="button button3">Click Here</button>
+                    <br>
+                    After Clicking Button The Modified Array is Below
+                    <p id="evennumbers_text"></p>
+                    </div>
+                    <hr>
 
 
 
